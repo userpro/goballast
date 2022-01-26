@@ -32,5 +32,5 @@ func main() {
 
 	go allocTest()
 
-	log.Println(http.ListenAndServe("0.0.0.0:6060", nil))
+	log.Println(http.ListenAndServe("127.0.0.1:6060", nil))
 }

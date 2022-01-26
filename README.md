@@ -12,7 +12,7 @@ go mod tidy
 go run main.go
 ~~~
 
-open `0.0.0.0:6060/debug/charts/` show dashboard
+open `127.0.0.1:6060/debug/charts/` show dashboard
 
 ## Demo
 
