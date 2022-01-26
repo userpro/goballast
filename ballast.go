@@ -32,7 +32,7 @@ func finalizerDebugHandler(f *finalizerRef) {
 
 var f *finalizer
 
-// New mem目标内存大小 单位bytes
+// New mem*2 = target memory usage for GC trigger, bytes
 func New(mem int) {
 	f = &finalizer{
 		ballast: make([]byte, mem),
@@ -43,7 +43,7 @@ func New(mem int) {
 	f.ref = nil
 }
 
-// NewWithDebug mem目标内存大小 单位bytes
+// NewWithDebug mem*2 = target memory usage for GC trigger, bytes
 func NewWithDebug(mem int) {
 	f = &finalizer{
 		ballast: make([]byte, mem),

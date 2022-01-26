@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/mkevac/debugcharts v0.0.0-20191222103121-ae1c48aa8615
-	github.com/userpro/goballast v0.1.0
+	github.com/userpro/goballast v0.2.0
 )
 
 require (

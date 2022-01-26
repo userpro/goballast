@@ -18,8 +18,8 @@ github.com/shirou/w32 v0.0.0-20160930032740-bb4de0191aa4/go.mod h1:qsXQc7+bwAM3Q
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.4.0 h1:2E4SXV/wtOkTonXsotYi4li6zVWxYlZuYNCXe9XRJyk=
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
-github.com/userpro/goballast v0.1.0 h1:7GtHt9CeIz3ouVx7rjwf0kt56H140RsX1KOf1IVTwp0=
-github.com/userpro/goballast v0.1.0/go.mod h1:qk2MlM7QJWbuT8abil6/lnrtJ7U5nLwmKuTTYg6i/os=
+github.com/userpro/goballast v0.2.0 h1:U3vpzuSGMkLTxokrVGznH/glOR0IPcY5bUb6oj2LCNE=
+github.com/userpro/goballast v0.2.0/go.mod h1:qk2MlM7QJWbuT8abil6/lnrtJ7U5nLwmKuTTYg6i/os=
 golang.org/x/sys v0.0.0-20191220220014-0732a990476f h1:72l8qCJ1nGxMGH26QVBVIxKd/D34cfGt0OvrPtpemyY=
 golang.org/x/sys v0.0.0-20191220220014-0732a990476f/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
