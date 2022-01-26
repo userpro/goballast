@@ -22,9 +22,9 @@ import (
 )
 
 func main() {
-    // Set GC trigger memory usage target
+    // Set GC trigger memory usage target 4G
     goballast.New(2 << 30)
-	// goballast.NewWithDebug(2 << 30) // print runtime debug info
+    // goballast.NewWithDebug(2 << 30) // print runtime debug info
 
     // TODO something
 }

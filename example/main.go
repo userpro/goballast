@@ -5,8 +5,6 @@ import (
 	"net/http"
 	"time"
 
-	goballast "github.com/userpro/goballast"
-
 	_ "github.com/mkevac/debugcharts"
 )
 
@@ -28,9 +26,9 @@ func allocTest() {
 }
 
 func main() {
-	goballast.NewWithDebug(2 << 30)
+	// goballast.NewWithDebug(2 << 30)
 
 	go allocTest()
 
-	log.Println(http.ListenAndServe("127.0.0.1:6060", nil))
+	log.Println(http.ListenAndServe("0.0.0.0:6061", nil))
 }
