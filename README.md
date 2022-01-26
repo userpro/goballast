@@ -32,5 +32,6 @@ func main() {
 
 # Reference
 
-[Go memory ballast: How I learnt to stop worrying and love the heap](https://blog.twitch.tv/en/2019/04/10/go-memory-ballast-how-i-learnt-to-stop-worrying-and-love-the-heap/) 
+* [Go memory ballast: How I learnt to stop worrying and love the heap](https://blog.twitch.tv/en/2019/04/10/go-memory-ballast-how-i-learnt-to-stop-worrying-and-love-the-heap/) 
+* [proposal: runtime: add a mechanism for specifying a minimum target heap size](https://github.com/golang/go/issues/23044)
 
