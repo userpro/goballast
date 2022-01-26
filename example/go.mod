@@ -2,7 +2,10 @@ module github.com/userpro/goballast/example
 
 go 1.17
 
-require github.com/mkevac/debugcharts v0.0.0-20191222103121-ae1c48aa8615
+require (
+	github.com/mkevac/debugcharts v0.0.0-20191222103121-ae1c48aa8615
+	github.com/userpro/goballast v0.1.0
+)
 
 require (
 	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect

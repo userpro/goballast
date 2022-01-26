@@ -27,7 +27,7 @@ func finalizerDebugHandler(f *finalizerRef) {
 		time.Now().String(), m.Alloc/1024, m.NextGC/1024, m.NumGC)
 
 	runtime.KeepAlive(f.parent.ballast)
-	runtime.SetFinalizer(f, finalizerHandler)
+	runtime.SetFinalizer(f, finalizerDebugHandler)
 }
 
 var f *finalizer
